@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Sherwood';
-    src: url('./fonts/SHERWOOD.ttf') format('truetype');
+    src: url('./fonts/SHERWOOD.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -148,6 +148,7 @@ footer {
   }
 
 }
+
 
 
 
