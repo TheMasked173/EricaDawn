@@ -156,7 +156,7 @@ a.btn {
 
 .events img {
   width: auto;
-  max-width: 150px;   /* ← CHANGE THIS NUMBER TO RESIZE */
+  max-width: 350px;   /* ← CHANGE THIS NUMBER TO RESIZE */
   height: auto;
   border-radius: 12px;
   display: block;
@@ -194,3 +194,4 @@ footer {
     max-width: 120px; /* slightly smaller on phones */
   }
 }
+
