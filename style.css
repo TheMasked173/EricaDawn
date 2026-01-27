@@ -159,7 +159,7 @@ a.btn {
 
 .events img {
   width: 100%;
-  max-width: 300px;   /* small image size */
+  max-width: 100px;   /* small image size */
   height: auto;
   object-fit: contain;
   border-radius: 12px;
@@ -192,6 +192,7 @@ footer {
   }
 
 }
+
 
 
 
