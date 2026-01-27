@@ -142,14 +142,14 @@ a.btn {
   color: white;
 }
 /* ===== EVENTS SECTION ===== */
-.events {
-  max-width: 1000px;
-  margin: 0 auto 2rem;
-  padding: 1.5rem;
-  background: white;
-  border-radius: 18px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-  text-align: center;
+.events img {
+width: auto; 
+max-width: 150px; 
+height: auto;
+object-fit: contain;
+border-radius: 12px;
+display: block;
+margin: 0 auto;
 }
 
 .events h2 {
@@ -192,6 +192,7 @@ footer {
   }
 
 }
+
 
 
 
