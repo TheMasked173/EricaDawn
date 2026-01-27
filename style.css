@@ -77,21 +77,16 @@ body {
 }
 
 .book-cover {
-  text-align: center; /* centers text above and below image */
-}
-
-.book-cover {
-  text-align: center; /* centers text above and below image */
+  text-align: center;
 }
 
 .cover-series,
 .cover-book {
   font-family: "Sherwood", Georgia, serif;
-  color: #ffd700; /* gold color */
-  font-size: 1.5rem; /* adjust size as needed */
-  margin: 10px 0; /* spacing above and below */
+  color: #ffd700;
+  font-size: 1.5rem;
+  margin: 10px 0;
 }
-
 
 .book-description p {
   font-size: 1.1rem;
@@ -122,6 +117,7 @@ body {
   font-family: "Sherwood", Georgia, serif;
 }
 
+/* Buttons */
 .btn {
   margin-top: auto;
   display: inline-block;
@@ -141,15 +137,16 @@ body {
 a.btn {
   color: white;
 }
-/* ===== EVENTS SECTION ===== */
-.events img {
-width: auto; 
-max-width: 150px; 
-height: auto;
-object-fit: contain;
-border-radius: 12px;
-display: block;
-margin: 0 auto;
+
+/* ===== EVENTS SECTION (FIXED) ===== */
+.events {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  text-align: center;
 }
 
 .events h2 {
@@ -158,14 +155,14 @@ margin: 0 auto;
 }
 
 .events img {
-  width: 100%;
-  max-width: 100px;   /* small image size */
+  width: auto;
+  max-width: 150px;   /* ← CHANGE THIS NUMBER TO RESIZE */
   height: auto;
-  object-fit: contain;
   border-radius: 12px;
   display: block;
   margin: 0 auto;
 }
+
 /* Footer */
 footer {
   margin-top: 60px;
@@ -183,23 +180,17 @@ footer {
     flex-direction: column;
     text-align: center;
   }
+
   .book-section {
     align-items: center;
   }
+
   .author-section {
     flex-direction: column;
     text-align: center;
   }
 
+  .events img {
+    max-width: 120px; /* slightly smaller on phones */
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
