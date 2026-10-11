@@ -94,6 +94,7 @@ body {
 
 /* Author section */
 .author-section {
+  font-family: "Libre Caslon Condensed", serif;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
