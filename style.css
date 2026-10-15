@@ -52,10 +52,6 @@ body {
   margin: 20px auto;
 }
 
-.collection .cover-series {
-  /* Not needed here if the heading should be above the images */
-}
-
 .collection img {
   width: 100%;
   max-width: 250px;
