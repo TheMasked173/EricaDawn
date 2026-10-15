@@ -41,6 +41,33 @@ body {
   padding: 0 20px;
 }
 
+/* Collection section */
+.collection {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.collection .cover-series {
+  /* Not needed here if the heading should be above the images */
+}
+
+.collection img {
+  width: 100%;
+  max-width: 250px;
+  min-width: 0;
+  height: auto;
+  flex: 1 1 0;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
 /* Book section */
 .book-section {
   display: flex;
@@ -196,3 +223,13 @@ footer {
   }
 }
 
+/* Keep all three covers side by side on phones */
+@media (max-width: 768px) {
+  .collection {
+    gap: 8px;
+  }
+
+  .collection img {
+    max-width: none;
+  }
+}
